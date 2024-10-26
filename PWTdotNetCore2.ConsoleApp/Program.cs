@@ -1,11 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
+// See https://aka.ms/new-console-template for more information
 using PWTdotNetCore.ConsoleApp;
 using PWTdotNetCore2.ConsoleApp;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 
-Console.WriteLine("Hello!");
 
 //AdoDotNetExample2 adoDotNetExample = new AdoDotNetExample2();
 //adoDotNetExample.Read();
@@ -22,6 +21,8 @@ Console.WriteLine("Hello!");
 
 //EFCoreExample eFCoreExample = new EFCoreExample();
 //eFCoreExample.Read();
-//eFCoreExample.Create("Candide", "Voltaire", "Fiction");
+//eFCoreExample.Create("Roots", "Aldous Huxley", "Fiction");
+//eFCoreExample.Edit();
+//eFCoreExample.Delete();
 
-Console.ReadKey();
+onsole.ReadKey();
