@@ -119,3 +119,6 @@ namespace PWTdotNetCore2.ConsoleApp
 
     }
 }
+
+//dotnet ef dbcontext scaffold "Server=.;Database=PWTDB;User Id=sa;Password=georgeedwards1735TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -c AppDbContext -f
+

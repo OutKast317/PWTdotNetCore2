@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWTdotNetCore2.ConsoleApp", "PWTdotNetCore2.ConsoleApp\PWTdotNetCore2.ConsoleApp.csproj", "{0F91A46C-D767-400B-97E0-371D5035371D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PWTdotNetCore2.ConsoleApp", "PWTdotNetCore2.ConsoleApp\PWTdotNetCore2.ConsoleApp.csproj", "{0F91A46C-D767-400B-97E0-371D5035371D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWTDotNet2.RestApi", "PWTDotNet2.RestApi\PWTDotNet2.RestApi.csproj", "{59F0C6C3-366E-4246-A158-1DDFEEF28EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWTDotNet2.Database", "PWTDotNet2.Database\PWTDotNet2.Database.csproj", "{B6ABDFEA-6597-4078-AC99-C02889BFB627}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{0F91A46C-D767-400B-97E0-371D5035371D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F91A46C-D767-400B-97E0-371D5035371D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F91A46C-D767-400B-97E0-371D5035371D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F0C6C3-366E-4246-A158-1DDFEEF28EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F0C6C3-366E-4246-A158-1DDFEEF28EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F0C6C3-366E-4246-A158-1DDFEEF28EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F0C6C3-366E-4246-A158-1DDFEEF28EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6ABDFEA-6597-4078-AC99-C02889BFB627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6ABDFEA-6597-4078-AC99-C02889BFB627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6ABDFEA-6597-4078-AC99-C02889BFB627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6ABDFEA-6597-4078-AC99-C02889BFB627}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

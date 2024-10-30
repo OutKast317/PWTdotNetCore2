@@ -5,7 +5,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//BlogDataModel for representing the data structure of a blog post.
+//a common naming convention for a data model used in blog applications.
+//can be used with Entity Framework Core, Dapper, or ADO.NET.
 namespace PWTdotNetCore2.ConsoleApp.Models
 {
     public class BlogDapperDataModel

@@ -6,6 +6,8 @@ using System.Data;
 using System.Data.SqlClient;
 
 
+Console.WriteLine("Hello!");
+
 //AdoDotNetExample2 adoDotNetExample = new AdoDotNetExample2();
 //adoDotNetExample.Read();
 //adoDotNetExample.Create();
@@ -25,4 +27,7 @@ using System.Data.SqlClient;
 //eFCoreExample.Edit();
 //eFCoreExample.Delete();
 
-onsole.ReadKey();
+
+
+
+Console.ReadKey();
