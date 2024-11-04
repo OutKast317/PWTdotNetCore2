@@ -45,7 +45,7 @@ namespace PWTdotNetCore2.ConsoleApp
             Console.WriteLine(result == 1 ? "Saving Successful." : "Saving Failed.");
         }
 
-        public void Edit()
+        public void Edit(int id)
         {
             AppDbContext db = new AppDbContext();
             var item = db.Blogs.FirstOrDefault(x => x.BlogId == id);

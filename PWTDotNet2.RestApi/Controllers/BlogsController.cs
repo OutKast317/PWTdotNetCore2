@@ -10,7 +10,7 @@ namespace PWTDotNet2.RestApi.Controllers
         [HttpGet]
         public IActionResult GetBlogs()
         {
-            return Ok();
+            return Ok(new {Message = "GetBlogs"});
         }
 
         [HttpPost]
