@@ -26,7 +26,7 @@ namespace PWTdotNetCore2.ConsoleApp
                                   ,[BlogAuthor]
                                   ,[BlogContent]
                                   ,[DeleteFlag]
-                              FROM [dbo].[Tbl_Blog] where DeleteFlag = 0";
+                              FROM [dbo].[Tbl_Blog] where DeleteFlag = 0 or NULL";
 
             var dt = _adoDotNetService.Query(query);
             
